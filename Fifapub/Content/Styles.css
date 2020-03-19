@@ -1,0 +1,291 @@
+﻿body {
+    background-color: #E1E1E1;
+    font-family: Calibri, sans-serif;
+}
+header img{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0px,5px,0px,5px;
+}
+header #userProfile {
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: #555;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 5px;
+}
+header nav a {
+    margin: 5px;
+    text-decoration: none;
+    color: #000000;
+    font-size: larger;
+}
+
+.selected{
+    margin: 5px;
+    text-decoration: none;
+    color: #CB6E17;
+    border-color: #8D2B0B;
+}
+.body img{
+    width: 100%;
+    height: auto;
+}
+h3{
+    display:inline-block;
+    margin: 40px 15px 15px 15px;
+}
+.seeMore {
+    float: right;
+    color: #B3ECFF;
+    text-decoration: underline;
+}
+.category {
+    color: #CB6E17;
+    text-decoration: underline;
+}
+
+.gridContainer{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin: auto;
+    width: 97%;
+}
+#registrationGridContainer {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.news div div img {
+    width: 90%;
+    height: 275px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.news div div div, .name{
+    width: 90%;
+    background-color: white;
+    margin-top: 0px;
+}
+
+.news div div div p {
+    display: block;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em;
+    line-height: 1.2em;
+    align-content: center;
+    justify-content: center;
+    padding: 0px 5px 0px 5px;
+    color: #7E7E7E;
+}
+
+.news div div div h5, h5 {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+}
+
+.news div div div a {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 5px 0px;
+    color: #127FBF;
+    text-decoration: underline;
+}
+.galleryPics {
+    border: solid;
+    border-color: #B44D12;
+    
+}
+.winnerPics {
+    height: 150px;
+    border: solid;
+    border-color: #B44D12;
+    border-radius: 5%;
+}
+footer {
+    background-color: #8D2B0B;
+    height: 50px;
+    margin-top: 20px;
+    position:relative;
+}
+footer nav {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 97%;
+    height: 50%;
+    margin: auto;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+footer nav img {
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+#registrationForm {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin:auto;
+}
+#errors ul li{
+    color:red;
+    font-size: initial;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#registrationForm p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: black;
+}
+.textInput, #registrationForm button {
+    width: 100%;
+    background-color: #CFCFCF;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border: 1px solid #CFCFCF;
+    border-radius: 5px;
+}
+#registrationForm button {
+    background-color: #B44D12;
+    color: white;
+    border-color: #B44D12;
+    margin-top:15px;
+}
+#Eventinfo {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#Eventinfo h2 {
+    color: #B44D12;
+    margin: 5px;
+    display:inline;
+}
+ul{
+    list-style:none;
+    padding-left:0;
+}
+ul li::before {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 20px;
+    content: '\2022';
+    color: #B44D12;
+    
+}
+ul li{
+    margin-top:30px;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.dateGallery {
+    font-size: 15px;
+    margin: 0px;
+    padding-left: 5px;
+}
+ul li div{
+    display:grid;
+    grid-template-columns:auto auto auto auto;    
+}
+ul li div img {
+    width: 90%;
+    margin: 10px;
+    border-style: solid;
+    border-color: #B44D12;
+}
+.newsSection{
+    margin: 40px 0px 20px 0px;
+}
+.newsSection img {
+    width: 40%;
+    height: auto;
+    border-color: #B44D12;
+    border-style: solid;
+    display: flex;
+    margin: auto;
+}
+.newsSection h6{
+    display:flex;
+    justify-content:center;
+    margin: 2px;
+    padding:2px;
+}
+.winners h2 {
+    display: flex;
+    justify-content: center;
+    color: #B44D12;
+}
+.winners{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    width:100%;
+    margin-top: 50px;
+}
+.winnersGrid1{
+    grid-column: 1/span 2;
+}
+.winnersGrid2{
+    grid-column: 1/span 1;
+    grid-row:2/span 1;
+}
+.winnersGrid5 {
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+}
+.winnersGrid3 {
+    grid-column: 1/span 1;
+    grid-row: 3/span 1;
+}
+.winnersGrid4 {
+    grid-column: 1/span 1;
+    grid-row: 4/span 1;
+}
+.winnersGrid3 , .winnersGrid6  {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-weight: bolder;
+    font-size:larger;
+    margin:0px;
+    padding:0px;
+}
+.winnersGrid4, .winnersGrid7 {
+    display: flex;
+    justify-content: center;
+    color: #7E7E7E;
+    margin: 0px;
+    padding: 0px;
+}
+.winners img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #B44D12;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
